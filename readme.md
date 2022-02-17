@@ -25,13 +25,15 @@ function main() {
 ```
 ### API:
 #### `InputReader.down(key: string): boolean`
-Takes in a string of one of a valid `event.key`, `"MouseLeft"`, `"MouseRight"`, `"MouseMiddle"`, `"MouseBack"`, or `"MouseForward"`. Returns a boolean stating whether that button / key is currently down.
+Takes in a string that is either a valid `event.key`, `"MouseLeft"`, `"MouseRight"`, `"MouseMiddle"`, `"MouseBack"`, or `"MouseForward"`. Returns a boolean of whether it's  down.
 ___
 #### `InputReader.up(key: string): boolean`
-Does the inverse of `InputReader.down`, tells you if a key has been released this timestep, takes same arguments as `InputReader.down`.
+Similar `InputReader.down`, tells you if a key has been released this timestep, takes the same arguments as `InputReader.down`.
 ___
 #### `InputReader.mouse(which?: string): number | Object`
-Takes in a string with one of `"x"`, `"y"`, `"both"`X position of the mouse, the Y position of the mouse, or `{x: <number>, y: <number>}`, respectively. If no argument is given it defaults to both.
+Takes in a string that is either `"x"`, `"y"`,  or `"both"`, returns the X position of the mouse, the Y position of the mouse, or `{x: <number>, y: <number>}`, respectively. If no argument is given it defaults to `"both"`.
 ___
 #### `InputReader.step(): void`
- Steps forward once and updates everything, required to be called before any inputs can be read correctly.
+Steps forward once and updates everything. Required to be called before any inputs can be read correctly.
+---
+:)
