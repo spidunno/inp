@@ -10,7 +10,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           registry-url: https://registry.npmjs.org/
-      - run: npm install
-      - run: npm publish --access public
+      - run: npm version minor
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
