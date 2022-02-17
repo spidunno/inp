@@ -3,3 +3,4 @@ package-lock.json
 replit.nix
 node_modules
 .gitignore
+.github
