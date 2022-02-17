@@ -35,5 +35,5 @@ Takes in a string that is either `"x"`, `"y"`,  or `"both"`, returns the X posit
 ___
 #### `InputReader.step(): void`
 Steps forward once and updates everything. Required to be called before any inputs can be read correctly.
----
+___
 (:
