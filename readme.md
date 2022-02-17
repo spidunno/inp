@@ -1,9 +1,10 @@
 
+
 # Inp
 ## State based input library for the browser.
 ---
 ### Installation:
-Install either install with npm or use a CDN such as unpkg (eg. `https://unpkg.com/inp/index.js`).
+Either install with npm or use a CDN such as unpkg (eg. `https://unpkg.com/inp/index.js`).
 ### Usage:
 ```js
 import InputReader from 'path/to/inp.js';
