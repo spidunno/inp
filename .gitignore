@@ -4,4 +4,3 @@ replit.nix
 node_modules
 .gitignore
 .github
-package.json
