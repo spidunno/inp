@@ -36,4 +36,4 @@ ___
 #### `InputReader.step(): void`
 Steps forward once and updates everything. Required to be called before any inputs can be read correctly.
 ___
-(:
+:)
