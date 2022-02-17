@@ -22,6 +22,7 @@ function main() {
 	input.step();
 	setTimeout(main, frameRate);
 }
+main();
 ```
 ### API:
 #### `InputReader.down(key: string): boolean`
