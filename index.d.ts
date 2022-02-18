@@ -27,7 +27,7 @@ export interface Reader {
 		* @param {string} which Whether to return the x, y, or both coordinates.
 		* @return {number | coordinate}
 	*/
-	mouse(which?: string): number | coordinate | none;
+	mouse(which?: string): number | coordinate | void;
 }
 /**
 	* Create a new Reader
