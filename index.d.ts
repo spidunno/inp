@@ -1,9 +1,9 @@
-interface coordinate {
+export interface coordinate {
 	x: number;
 	y: number;
 }
 
-interface Reader {
+export interface Reader {
 	/**
 		* Get whether a key is down.
 		* @param {string} key - The key or button to check.
