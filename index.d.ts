@@ -21,7 +21,7 @@ export interface Reader {
 		* Steps forward and updates stuff.
 		* @returns {none}
 	*/
-	step(): none;
+	step(): void;
 	/**
 		* Gets the position of the mouse.
 		* @param {string} which Whether to return the x, y, or both coordinates.
