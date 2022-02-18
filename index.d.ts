@@ -32,7 +32,6 @@ export interface Reader {
 /**
 	* Create a new Reader
 	* @param {HTMLElement} element The HTML element to get input from, defaults to window.
-	* @constructor
 	* @returns {Reader}
 */
 export default function InputReader(element?: HTMLElement): Reader;
