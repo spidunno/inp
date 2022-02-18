@@ -1,8 +1,9 @@
+/** Just used for mouse coordinates, sorta unnecessary but ¯\_(ツ)_/¯ */
 export interface coordinate {
 	x: number;
 	y: number;
 }
-
+/** Not really necessary but do I care? ¯\_(ツ)_/¯ */
 export interface Reader {
 	/**
 		* Get whether a key is down.
