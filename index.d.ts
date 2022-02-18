@@ -35,4 +35,4 @@ export interface Reader {
 	* @param {HTMLElement} element The HTML element to get input from, defaults to window.
 	* @returns {Reader}
 */
-export default function InputReader(element?: (Element | Window)): Reader;
+export default function InputReader(element?: (Element | (Window & typeof globalThis))): Reader;
