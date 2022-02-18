@@ -1,3 +1,4 @@
+declare module 'inp';
 /** Just used for mouse coordinates, sorta unnecessary but ¯\_(ツ)_/¯ */
 export interface coordinate {
 	x: number;
