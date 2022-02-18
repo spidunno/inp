@@ -1,6 +1,6 @@
 {
   "name": "inp",
-  "version": "1.21.0",
+  "version": "1.22.0",
   "description": "State-based input library for the browser.",
   "main": "index.js",
   "scripts": {
