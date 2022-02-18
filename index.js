@@ -1,7 +1,3 @@
-/**
-	* Initialize inp. Ex. `let input = InputReader(element=document.body)`
-	* @param {HTMLElement} element
-*/
 export default function InputReader(element=window) {
 		const difference = (a1, a2) => a1.filter(x => !a2.includes(x));
 	window.__internal = {
